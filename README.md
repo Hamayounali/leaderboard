@@ -2,7 +2,7 @@
 This application is used to store and retrive the name and socre of a player 
 
 ## Leaderbaord screen shot
-<img width="585" alt="todo" src="https://user-images.githubusercontent.com/22744775/178933348-dd954390-00e2-4e26-845c-aee2b778328d.PNG">
+<img width="788" alt="leaderboardschreenshot" src="https://user-images.githubusercontent.com/22744775/181681593-1bbcebfc-b6ee-454d-b0e3-5bf4dc327b9b.PNG">
 
 ## Page Link 
 https://hamayounali.github.io/toDoList/
