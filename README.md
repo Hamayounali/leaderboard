@@ -5,7 +5,7 @@ This application is used to store and retrive the name and socre of a player
 <img width="788" alt="leaderboardschreenshot" src="https://user-images.githubusercontent.com/22744775/181681593-1bbcebfc-b6ee-454d-b0e3-5bf4dc327b9b.PNG">
 
 ## Page Link 
-https://hamayounali.github.io/toDoList/
+https://hamayounali.github.io/leaderboard/
 
 # Setup
 Clone this repository
