@@ -12,7 +12,7 @@ const loadScores = async () => {
 
 document.addEventListener('DOMContentLoaded', async () => {
   let results = [];
-    results = await loadScores();
+  results = await loadScores();
 
   results.forEach((result) => {
     scoresTable.innerHTML += `
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 refreshBtn.addEventListener('click', async () => {
   let results = [];
-    results = await loadScores();
+  results = await loadScores();
   const scoreElements = document.querySelectorAll('.student-score');
   scoreElements.forEach((scoreElement) => scoreElement.remove());
 
