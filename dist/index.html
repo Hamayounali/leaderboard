@@ -8,58 +8,38 @@
 <script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script><script defer src="print.bundle.js"></script></head>
 <body>
     <br>
-    <h1 style="text-align: left ;"> Leaderboard</h1>
-   
-    <div class="container">
-    
+
+<div class="container">
+    <h1> Leaderboard</h1>
+    <div class="row">
+    <div class="col-sm-6" style="padding: 20px;">
+
+        <table class="headingTable">
+            <tr>
+                <td>
+                    <h3 class="recent_score">Recent scores</h3>
+                </td>
+                <td>
+                    <input type="button" value="Refresh" id="refresh" class="btn btn-primary" />
+                </td>
+            </tr>
+        </table>
         
-    <div> 
-        <table>
-            <tr>
-            <th> Resent Score</th>
-            <th><button> Refrash</button></th>
-            </tr>
-            <tr>
-            <td>Peter</td>
-            <td style="width: 300px;">100</td>
-            </tr>
-            <tr>
-            <td>Lois</td>
-            <td>90</td>
-            </tr>
-            <tr>
-            <td>Joe</td>
-            <td>89</td>
-            </tr>
-            <tr>
-            <td>70</td>
-            <td>Brown</td>
-            </tr>
-            <tr>
-            <td>Lois</td>
-            <td>90</td>
-            </tr>
-            <tr>
-            <td>Joe</td>
-            <td>89</td>
-            </tr>
-            <tr>
-            <td>70</td>
-            <td>Brown</td>
-            </tr>
-            
-          </table> 
+        <table class="scores-table table"> </table>
     </div>
 
-    <div>
-        <h2>Add your score</h2>
-        <form action="">           
-            <input type="text" id="name" placeholder="Your Name" class="scoreinput input-field">
-            <input type="text" id="score" placeholder="Your Score" class="scoreinput input-field">
-            <input type="submit">
+    <div class="col-sm-6">
+        <h2 class="add_score_heading">Add your score</h2>
+        <form action="" id="create-score">           
+            <input type="text" id="name" placeholder="Your Name" class="form-control">
+            <br>
+            <input type="text" id="score" placeholder="Your Score" class="form-control">
+            <br>
+            <button class="btn btn-primary" type="submit">Submit</button>
         </form>
     </div>
-    
+   
     </div>
+</div>
 </body>
 </html>
