@@ -2,7 +2,7 @@
 This application is used to store and retrive the name and socre of a player 
 
 ## Leaderbaord screen shot
-<img width="788" alt="leaderboardschreenshot" src="https://user-images.githubusercontent.com/22744775/181681593-1bbcebfc-b6ee-454d-b0e3-5bf4dc327b9b.PNG">
+<img width="876" alt="pic" src="https://user-images.githubusercontent.com/22744775/181828176-9e6376e7-67e0-44f3-8404-da9bf92222b6.PNG">
 
 ## Page Link 
 https://hamayounali.github.io/leaderboard/
