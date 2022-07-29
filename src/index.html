@@ -10,52 +10,29 @@
     <br>
     <h1 style="text-align: left ;"> Leaderboard</h1>
    
-    <div class="container">
-     
-    <div> 
+   <div style="width:500px; margin-left: 75px;">
         <table>
             <tr>
-            <th> Resent Score</th>
-            <th><button> Refrash</button></th>
+                <td>
+                    <h1>Recent scores</h1>
+                </td>
+                <td>
+                    <input type="button" value="Refresh" id="refresh" />
+                </td>
             </tr>
-            <tr>
-            <td>Peter</td>
-            <td style="width: 300px;">100</td>
-            </tr>
-            <tr>
-            <td>Lois</td>
-            <td>90</td>
-            </tr>
-            <tr>
-            <td>Joe</td>
-            <td>89</td>
-            </tr>
-            <tr>
-            <td>70</td>
-            <td>Brown</td>
-            </tr>
-            <tr>
-            <td>Lois</td>
-            <td>90</td>
-            </tr>
-            <tr>
-            <td>Joe</td>
-            <td>89</td>
-            </tr>
-            <tr>
-            <td>70</td>
-            <td>Brown</td>
-            </tr>
-            
-          </table> 
-    </div>
+        </table>
+   </div>
 
+    <div class="container">
+    <div>
+        <table class="scores-table" style="width: 500px;"> </table>
+    </div>
     <div>
         <h2>Add your score</h2>
-        <form action="">           
+        <form action="" id="create-score">           
             <input type="text" id="name" placeholder="Your Name" class="scoreinput input-field">
             <input type="text" id="score" placeholder="Your Score" class="scoreinput input-field">
-            <input type="submit">
+            <button type="submit">Submit</button>
         </form>
     </div>
     
