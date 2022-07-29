@@ -8,34 +8,38 @@
 </head>
 <body>
     <br>
-    <h1 style="text-align: left ;"> Leaderboard</h1>
-   
-   <div style="width:500px; margin-left: 75px;">
-        <table>
+
+<div class="container">
+    <h1> Leaderboard</h1>
+    <div class="row">
+    <div class="col-sm-6" style="padding: 20px;">
+
+        <table class="headingTable">
             <tr>
                 <td>
-                    <h1>Recent scores</h1>
+                    <h3 class="recent_score">Recent scores</h3>
                 </td>
                 <td>
-                    <input type="button" value="Refresh" id="refresh" />
+                    <input type="button" value="Refresh" id="refresh" class="btn btn-primary" />
                 </td>
             </tr>
         </table>
-   </div>
-
-    <div class="container">
-    <div>
-        <table class="scores-table" style="width: 500px;"> </table>
+        
+        <table class="scores-table table"> </table>
     </div>
-    <div>
-        <h2>Add your score</h2>
+
+    <div class="col-sm-6">
+        <h2 class="add_score_heading">Add your score</h2>
         <form action="" id="create-score">           
-            <input type="text" id="name" placeholder="Your Name" class="scoreinput input-field">
-            <input type="text" id="score" placeholder="Your Score" class="scoreinput input-field">
-            <button type="submit">Submit</button>
+            <input type="text" id="name" placeholder="Your Name" class="form-control">
+            <br>
+            <input type="text" id="score" placeholder="Your Score" class="form-control">
+            <br>
+            <button class="btn btn-primary" type="submit">Submit</button>
         </form>
     </div>
-    
+   
     </div>
+</div>
 </body>
 </html>
